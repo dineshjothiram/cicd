@@ -4,7 +4,7 @@ from sklearn.model_selection import train_test_split
 
 # Load dataset
 data = load_iris()
-X_train, X_test, y_train, y_test = train_test_split(data.data, data.target, test_size=0.25, random_state=42)
+X_train, X_test, y_train, y_test = train_test_split(data.data, data.target, test_size=0.27, random_state=42)
 
 # Train model
 ml_model = Model()
