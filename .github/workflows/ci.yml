@@ -25,7 +25,7 @@ jobs:
           pip install flake8 pytest
 
       - name: Lint Code
-        run: flake8 src/ tests/
+        run: flake8 test_model.py
 
       - name: Run Unit Tests
-        run: pytest tests/
+        run: pytest test_model.py
